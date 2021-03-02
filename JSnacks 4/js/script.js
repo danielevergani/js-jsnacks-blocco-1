@@ -3,7 +3,7 @@ var nome = prompt("dimmi come ti chiami")
 var presente;
 
 for (var i = 0; i< invitati.length; i++){
-    if (nome == invitati[i]){
+    if (nome.toLowerCase() == invitati[i].toLowerCase()){
         presente = "presente";
     }
 }
