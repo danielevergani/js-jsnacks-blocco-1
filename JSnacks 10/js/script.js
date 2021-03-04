@@ -1,5 +1,5 @@
 do{
-    var numero = parseInt(prompt("scrivi un numero"))
+    var numero = parseInt(prompt("scrivi un numero"));
 }while (isNaN(numero));
     
 if (numero % 2 == 0){
